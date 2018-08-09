@@ -1,0 +1,24 @@
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+table {
+	background-color:#ffffff;
+	border:1px solid #646464;
+	color:#333;padding:10px;
+	font:normal 14px arial,sans-serif;
+	padding:8px;
+	width:100%;
+}
+.details {
+	display: table;
+	width: 100%
+}
+.details  p {
+	display: inline-block;
+}

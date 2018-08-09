@@ -1,0 +1,118 @@
+.owl-carousel {
+	height: auto;
+}
+
+.owl-carousel .owl-item, .owl-carousel .item {
+	height: auto;
+}
+
+.owl-carousel .owl-item img {
+	transform-style: initial;
+	height: 100%;
+	object-fit: cover;
+}
+.owl-thumb-item img {
+	width: 150px;
+	height: auto;
+}
+.slider_row{
+	position: relative;
+	overflow:hidden;
+	padding:5px 0px 20px;
+	border-top:1px solid #ececec;
+	border-bottom:1px solid #ececec;
+}
+.owl-thumbs {
+	/*position: absolute;
+	bottom: 0;
+	left: 0;
+	right:0;*/
+	display: table;
+	width: 100%;
+	text-align: center;
+	padding: 2% 0px;
+}
+.owl-thumb-item {
+	display: table-cell;
+	border: none;
+	background: none;
+	padding: 0;
+	opacity: 0.4;
+	cursor:pointer;
+}
+.owl-thumb-item.active {
+	opacity: 1;
+}
+.owl-stage-outer.owl-height{
+	height: auto !important;
+}
+.owl-dots{
+	text-align: center;
+	clear:both;
+}
+.owl-dot{
+	display: inline-block;
+	margin-right:8px;
+	width:50px !important;
+	height:50px !important;
+	cursor:pointer;
+	background-size: cover;
+	margin-top: 6px;
+	opacity: 0.4;
+}
+.owl-dot.active{
+	opacity: 1;
+}
+.owl-dot:last-child{
+	margin-right: 0px;
+}
+@media only screen and (max-width: 767px){
+	.owl-dot{
+		margin-right:4px;
+		margin-top:4px;
+		width:40px !important;
+		height:40px !important;
+	}
+}
+
+/**** WPOS CSS ****/
+.wpos-rental-main-wrp{font-size: 18px;}
+.wpos-general-info-wrap .wpos-common-info{display: inline-block;padding: 10px;width: 33.33%;float: left !important;vertical-align: middle;}
+.wpos-all-rooms-block-wrap .wpos-all-rooms-block-cmn{display:inline-block;padding:15px 15px 15px 0px;float: left; clear: both;}
+.wpos-interior-block, 
+.wpos-additional-info-block, 
+.wpos-all-rooms-block-wrap, 
+.wpos-parking-block, 
+.wpos-structure-block, 
+.wpos-location-block,
+.wpos-directions-block, 
+.wpos-water-block, 
+.wpos-legal-block, 
+.wpos-association-block{width:100%;float: left;clear:both;}
+.wpos-field-group{width: 100%;float: left;margin: 10px 0;}
+.wpos-field-group table{margin:0;width:100%;}
+.wpos-field-group table tbody{border:0;}
+.wpos-field-group table tbody td{border:0;}
+.wpos-field-group table tbody td a{display: inline-block;}
+.wpos-field-group table tbody tr th{font-weight:700;}
+.wpos-field-group .wpos-margin-block{margin:10px 0;border:1px solid #000;width:100%;float: left;padding: 10px;}
+.wpos-general-info-wrap{width: 100%;float: left;clear: both;}
+.slider_row{width: 100%;float: left;clear: both;}
+.wpos-rental-main-wrp table{margin: 0px;}
+.wpos-field-group .wpos-details-row-video .wpos-start-date{display: inline-block;}
+.wpos-field-group .wpos-details-row-video .wpos-end-date{display: inline-block; margin-left: 15px;}
+.wpos-rental-main-wrp h2{margin: 15px 0px;}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+	.wpos-all-rooms-block-wrap .wpos-all-rooms-block-cmn{width:100%;}
+	
+	.wpos-field-group table tbody td{display: inline-block; padding-left: 0px;}
+	
+}
+@media only screen and (max-width: 40em) {
+	.wpos-all-rooms-block-wrap .wpos-all-rooms-block-cmn{width: 100%;}
+	.wpos-field-group .wpos-details-row-video .wpos-end-date{margin-left: 0px;}
+	.wpos-general-info-wrap .wpos-common-info{width: 100%;}
+	.wpos-field-group table tbody td{display: inline-block; padding-left: 0px;}
+	.wpos-rental-main-wrp h2{font-size: 22px;}	
+}
